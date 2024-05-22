@@ -44,6 +44,15 @@ body.menu-show {
   }
 }
 
+@media screen and (max-width: 767px) {
+  .desktop-image {
+      display: none;
+  }
+  .mobile-image {
+      display: block;
+  }
+}
+
 
 iframe{
   border-radius: 30px;
