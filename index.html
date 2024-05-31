@@ -41,7 +41,7 @@
 
 <body>
    <!-- Preloader Area Start -->
-   <div class="preloader">
+   <!-- <div class="preloader">
       <svg viewBox="0 0 1000 1000" preserveAspectRatio="none">
          <path id="preloaderSvg" d="M0,1005S175,995,500,995s500,5,500,5V0H0Z"></path>
       </svg>
@@ -57,7 +57,7 @@
             <span>g</span>
          </div>
       </div>
-   </div>
+   </div> -->
    <!-- Preloader Area End -->
 
    <!-- start: Back To Top -->
@@ -161,7 +161,7 @@
                <div class="col-md-6">
                   <div class="hero-content-box">
                      <span class="hero-sub-title">I am Hashil</span>
-                     <h1 class="hero-title">Laravel Developer +<br>Php Developer</h1>
+                     <h1 class="hero-title">Laravel Developer<br>Php Developer</h1>
 
                      <div class="hero-image-box d-md-none text-center">
                         <img src="images/about.jpg" alt="">
@@ -413,8 +413,8 @@
                   <div class="portfolio-filter text-center wow fadeInUp" data-wow-delay=".5s">
                      <div class="button-group filter-button-group">
                         <button data-filter="*" class="active">All</button>
-                        <button data-filter=".uxui">Resort</button>
-                        <button data-filter=".branding">Food Service</button>
+                        <button data-filter=".branding">Resort</button>
+                        <button data-filter=".uxui">Food Service</button>
                         <div class="active-bg"></div>
                      </div>
                   </div>
@@ -422,6 +422,15 @@
                   <div class="portfolio-box wow fadeInUp" data-wow-delay=".6s">
                      <div class="portfolio-sizer"></div>
                      <div class="gutter-sizer"></div>
+                     <div class="portfolio-item uxui">
+                        <iframe style="border-radius: 20px;" src="https://hashilnizam.github.io/tomattofoodservice/" width="100%" height="600px"></iframe>
+                        <div class="content-box">
+                           <h3 class="portfolio-title">Tomatto food Service</h3>
+                           <p>Food Order Website</p>
+                           <i class="flaticon-up-right-arrow"></i>
+                           <button data-mfp-src="#portfolio-wrapper" class="portfolio-link modal-popup"></button>
+                        </div>
+                     </div>
                      <div class="portfolio-item branding">
                         <div class="image-box">
                            <img src="images/unseenstay-mob.png" width="100%" height="600px" style="border-radius: 20px;"  alt="">
@@ -429,15 +438,6 @@
                         <div class="content-box">
                            <h3 class="portfolio-title">Unseenstay</h3>
                            <p>Travel Company.</p>
-                           <i class="flaticon-up-right-arrow"></i>
-                           <button data-mfp-src="#portfolio-wrapper" class="portfolio-link modal-popup"></button>
-                        </div>
-                     </div>
-                     <div class="portfolio-item uxui">
-                        <iframe style="border-radius: 20px;" src="https://hashilnizam.github.io/tomattofoodservice/" width="100%" height="600px"></iframe>
-                        <div class="content-box">
-                           <h3 class="portfolio-title">Tomatto food Service</h3>
-                           <p>Food Order Website</p>
                            <i class="flaticon-up-right-arrow"></i>
                            <button data-mfp-src="#portfolio-wrapper" class="portfolio-link modal-popup"></button>
                         </div>
@@ -854,13 +854,14 @@
                             const service = document.getElementById('conService').value;
                             const message = document.getElementById('conMessage').value;
                 
-                            const whatsappNumber = '+917560845352';
+                            const whatsappNumber = '+917561845352';
                             const whatsappUrl = `https://api.whatsapp.com/send?phone=${whatsappNumber}&text=
-                                Name: ${firstName} ${lastName}%0a
-                                Email: ${email}%0a
-                                Phone: ${phone}%0a
-                                Service: ${service}%0a
-                                Message: ${message}`;
+                            Name: ${firstName} ${lastName},%0a
+                            Email: ${email},%0a
+                            Phone: ${phone},%0a
+                            Service: ${service},%0a
+                            Message: ${message}`;
+
                 
                             window.open(whatsappUrl, '_blank');
                         });
