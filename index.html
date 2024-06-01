@@ -746,14 +746,7 @@
                             const message = document.getElementById('conMessage').value;
                 
                             const whatsappNumber = '+917561845352';
-                            const whatsappUrl = `https://api.whatsapp.com/send?phone=${whatsappNumber}&text=
-                            Name: ${firstName} ${lastName},%0a
-                            Email: ${email},
-                            Phone: ${phone},
-                            Service: ${service},
-                            Message: ${message}`;
-
-                
+                            const whatsappUrl = 'https://api.whatsapp.com/send?phone=${whatsappNumber}&text=Name:%20${firstName}%20${lastName},%0aEmail:%20${email},%0aPhone:%20${phone},%0aService:%20${service},%0aMessage:%20${message};'
                             window.open(whatsappUrl, '_blank');
                         });
                     </script>
