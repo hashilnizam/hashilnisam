@@ -384,56 +384,80 @@
       <!-- PORTFOLIO SECTION START -->
       <section class="portfolio-section" id="works-section">
          <div class="container">
-            <div class="row">
-               <div class="col-md-12">
-                  <div class="section-header text-center">
-                     <h2 class="section-title wow fadeInUp" data-wow-delay=".3s">My Recent Works</h2>
-                     <p class="wow fadeInUp" data-wow-delay=".4s">
-                        PORTFOLIO
-                     </p>
-                  </div>
-               </div>
-            </div>
+             <div class="row">
+                 <div class="col-md-12">
+                     <div class="section-header text-center">
+                         <h2 class="section-title wow fadeInUp" data-wow-delay=".3s">My Recent Works</h2>
+                         <p class="wow fadeInUp" data-wow-delay=".4s">
+                             PORTFOLIO
+                         </p>
+                     </div>
+                 </div>
+             </div>
+     
+             <div class="row">
+                 <div class="col-md-12">
+                     <div class="portfolio-filter text-center wow fadeInUp" data-wow-delay=".5s">
+                         <div class="button-group filter-button-group">
+                             <button data-filter="*" class="active">All</button>
+                             <button data-filter=".branding">Static</button>
+                             <button data-filter=".uxui">Dynamic</button>
+                             <button data-filter=".exp">Work Experience</button>
+                             <div class="active-bg"></div>
+                         </div>
+                     </div>
+     
+                     <div class="portfolio-box wow fadeInUp" data-wow-delay=".6s">
+                         <div class="portfolio-sizer"></div>
+                         <div class="gutter-sizer"></div>
+                         <div class="portfolio-item branding">
+                             <iframe style="border-radius: 20px;" src="https://hashilnizam.github.io/tomattofoodservice/" width="100%" height="600px"></iframe>
+                             <div class="content-box">
+                                 <h3 class="portfolio-title">Tomatto food Service</h3>
+                                 <p>Food Order Website</p>
+                                 <i class="flaticon-up-right-arrow"></i>
+                                 <button data-mfp-src="#portfolio-wrapper-1" class="portfolio-link modal-popup"></button>
+                             </div>
+                         </div>
 
-            <div class="row">
-               <div class="col-md-12">
-                  <div class="portfolio-filter text-center wow fadeInUp" data-wow-delay=".5s">
-                     <div class="button-group filter-button-group">
-                        <button data-filter="*" class="active">All</button>
-                        <button data-filter=".branding">Static</button>
-                        <button data-filter=".uxui">Dynamic</button>
-                        <div class="active-bg"></div>
-                     </div>
-                  </div>
+                         <div class="portfolio-item uxui">
+                           <div class="image-box">
+                               <img src="images/unseenstay-mob.png" width="100%" height="600px" style="border-radius: 20px;" alt="">
+                           </div>
+                           <div class="content-box">
+                               <h3 class="portfolio-title">Unseenstay</h3>
+                               <p>Travel Company.</p>
+                               <i class="flaticon-up-right-arrow"></i>
+                               <button data-mfp-src="#portfolio-wrapper-2" class="portfolio-link modal-popup"></button>
+                           </div>
+                         </div>
 
-                  <div class="portfolio-box wow fadeInUp" data-wow-delay=".6s">
-                     <div class="portfolio-sizer"></div>
-                     <div class="gutter-sizer"></div>
-                     <div class="portfolio-item uxui">
-                        <iframe style="border-radius: 20px;" src="https://hashilnizam.github.io/tomattofoodservice/" width="100%" height="600px"></iframe>
-                        <div class="content-box">
-                           <h3 class="portfolio-title">Tomatto food Service</h3>
-                           <p>Food Order Website</p>
-                           <i class="flaticon-up-right-arrow"></i>
-                           <button data-mfp-src="#portfolio-wrapper-1" class="portfolio-link modal-popup"></button>
-                        </div>
+                         <div class="portfolio-item branding">
+                             <iframe style="border-radius: 20px;" src="https://wynnvend.com/" width="100%" height="600px"></iframe>
+                             <div class="content-box">
+                                 <h3 class="portfolio-title">Wynn Vend</h3>
+                                 <p>E-commerce Sales Representative (Tea and Coffee Powder)</p>
+                                 <i class="flaticon-up-right-arrow"></i>
+                                 <button data-mfp-src="#portfolio-wrapper-3" class="portfolio-link modal-popup"></button>
+                             </div>
+                         </div>
+                        
+                         <div class="portfolio-item exp">
+                             <iframe style="border-radius: 20px;" src="https://igoalshoppy.com/" width="100%" height="600px"></iframe>
+                             <div class="content-box">
+                                 <h3 class="portfolio-title">IgoalShoppy</h3>
+                                 <p>E-commerce.</p>
+                                 <i class="flaticon-up-right-arrow"></i>
+                                 <button data-mfp-src="#portfolio-wrapper-4" class="portfolio-link modal-popup"></button>
+                             </div>
+                         </div>
+
                      </div>
-                     <div class="portfolio-item branding">
-                        <div class="image-box">
-                           <img src="images/unseenstay-mob.png" width="100%" height="600px" style="border-radius: 20px;"  alt="">
-                        </div>
-                        <div class="content-box">
-                           <h3 class="portfolio-title">Unseenstay</h3>
-                           <p>Travel Company.</p>
-                           <i class="flaticon-up-right-arrow"></i>
-                           <button data-mfp-src="#portfolio-wrapper-2" class="portfolio-link modal-popup"></button>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </div>
+                 </div>
+             </div>
          </div>
-      </section>
+     </section>
+     
       <!-- PORTFOLIO SECTION END -->
 
       <!-- start: Portfolio Popup -->
@@ -441,7 +465,6 @@
          <div class="popup_modal_img">
              <img src="images/tomatto.png" alt="">
          </div>
-     
          <div class="popup_modal_content">
              <div class="portfolio_info">
                  <div class="portfolio_info_text">
@@ -455,11 +478,11 @@
              </div>
          </div>
      </div>
-     <div id="portfolio-wrapper-2" class="popup_content_area zoom-anim-dialog mfp-hide">
+
+   <div id="portfolio-wrapper-2" class="popup_content_area zoom-anim-dialog mfp-hide">
       <div class="popup_modal_img">
           <img src="images/unseen.png" alt="">
       </div>
-  
       <div class="popup_modal_content">
           <div class="portfolio_info">
               <div class="portfolio_info_text">
@@ -467,15 +490,69 @@
                   <div class="desc">
                       <p>
                         My first project entails the creation of a dynamic and visually captivating website for a newly established travel company. The primary goal is to showcase the company's offerings and services, providing potential travelers with a seamless platform to explore destinations, browse tour packages, and make bookings.
-
-
                       </p>
                   </div>
               </div>
           </div>
       </div>
-  </div>
-  
+   </div>
+
+   <div id="portfolio-wrapper-3" class="popup_content_area zoom-anim-dialog mfp-hide">
+      <div class="popup_modal_img">
+            <img src="images/wynnvend.png" alt="wynnvend">
+      </div>
+      <div class="popup_modal_content">
+            <div class="portfolio_info">
+               <div class="portfolio_info_text">
+                  <h2 class="title">Wynn Vend</h2>
+                  <div class="desc">
+                        <p>
+                        Developed and maintained a product catalog on a WhatsApp-based sales platform, showcasing various tea and coffee powders.
+                        </p>
+                        <p>
+                        Provided detailed product descriptions and high-quality images to inform and attract potential customers.
+                        </p>
+                        <p>
+                        Facilitated customer orders through direct WhatsApp links, ensuring a seamless and user-friendly purchasing process.
+                        </p>
+                  </div>
+               </div>
+            </div>
+      </div>
+   </div>
+
+   <div id="portfolio-wrapper-4" class="popup_content_area zoom-anim-dialog mfp-hide">
+      <div class="popup_modal_img">
+         <img src="images/igoalshoppy.png" alt="igoalshoppy">
+      </div>
+            <div class="popup_modal_content">
+               <div class="portfolio_info">
+                  <div class="portfolio_info_text">
+                     <h2 class="title">IgoalShoppy</h2>
+                     <div class="desc">
+                           <p>
+                           Full-Stack Developer (Igoal Shoppy)
+                           </p>
+                           <p>
+                           Implemented a cart system using Redis, enhancing the application's performance and scalability.
+                           </p>
+                           <br>
+                           <ul>
+                              <strong>Developed and optimized the frontend UI for the restaurant section, including:</strong>
+                              <li><strong>Header:</strong> Designed a responsive, user-friendly navigation.</li>
+                              <li><strong>Shop List:</strong> Created an intuitive layout for showcasing shops.</li>
+                              <li><strong>Shop List Banner:</strong> Developed eye-catching banners for promotions.</li>
+                              <li><strong>Shop Items List:</strong> Organized clear displays of shop items.</li>
+                              <li><strong>Cart Section:</strong> Implemented a seamless, user-friendly cart interface.</li>
+                              <li><strong>Category Section:</strong> Designed a categorized display for easy browsing.</li>
+                              <li><strong>Restaurant List:</strong> Created an appealing, easy-to-navigate restaurant list.</li>
+                           </ul>     
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
      
       <!-- end: Portfolio Popup -->
 
@@ -856,7 +933,7 @@
                   </div>
               </div>
                <div class="copy-text">
-                  <p>© 2024 All rights reserved by <a href="#" target="_blank">#L-Niya</a></p>
+                  Copyright ©<script>document.write(new Date().getFullYear());</script> All rights reserved by <strong>#L</strong></a>
                </div>
             </div>
          </div>
